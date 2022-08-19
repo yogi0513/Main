@@ -14,8 +14,8 @@ public class BaseClass {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//		driver.get("https://www.facebook.com/");
-		driver.get("https://classic.crmpro.com/index.html");
+		driver.get("https://www.facebook.com/");
+//		driver.get("https://classic.crmpro.com/index.html");
 	}
 
 	
