@@ -1,0 +1,6 @@
+
+@login
+Scenario: Verify user is able to navigate facebook home page # src/test/resources/Feature/first.feature:4
+  Given user is on facebook login page                       # StepDefinations.FirstStep.user_is_on_facebook_login_page()
+  When user entered the login credential                     # StepDefinations.FirstStep.user_entered_the_login_credential()
+  Then user should redirected to home page                   # StepDefinations.FirstStep.user_should_redirected_to_home_page()
