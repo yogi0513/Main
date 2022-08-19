@@ -16,6 +16,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
 //		driver.get("https://classic.crmpro.com/index.html");
+		//Added base class
 	}
 
 	
